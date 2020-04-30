@@ -1,0 +1,14 @@
+
+f1 = 1
+f2 = 2
+s=0
+for i in range(3,34):
+    b = f1
+    f1 = f2
+    f2 = b+f1
+    if (b+f1)%2==0:
+        s=s+(b+f1)
+print(s+2)
+
+
+#4613733
